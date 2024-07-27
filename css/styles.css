@@ -114,7 +114,7 @@ ul {
 }
 
 
-
+/* first section */
 .section-hero {
     padding: 188px 0;
     border-bottom: 1px solid currentColor;
@@ -124,6 +124,7 @@ ul {
     background-repeat: no-repeat;
     background-position: center;
     max-width: 1440px;
+    margin: 0 auto;
 }
 
 .section-title {
@@ -159,7 +160,7 @@ ul {
 }
 
 
-/* second sextion */
+/* second section */
 .services-section {
     padding: 120px 0;
 }
@@ -258,7 +259,7 @@ ul {
     margin-bottom: 8px;
 }
 
-.team-job-title {
+.team-member-job-title {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -325,7 +326,6 @@ ul {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
 .portofolio:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -354,7 +354,7 @@ ul {
     transform: translateY(0%);
 }
 
-.title-and-description {
+.portofolio-title-and-description {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
