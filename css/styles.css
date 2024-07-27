@@ -385,6 +385,9 @@ ul {
 .footer-container {
     display: flex;
     align-items: baseline;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .footer-logo-and-text {
@@ -413,7 +416,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    margin-bottom: 16px;
+    margin: 0 0 16px 0;
 }
 
 .footer-social-media-list {
