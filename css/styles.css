@@ -14,6 +14,52 @@ ul {
     padding: 0;
 }
 
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.top-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+
+.right-navigation {
+    display: flex;
+    gap: 40px;
+}
+
+.address {
+    font-style: normal;
+}
+
+.address-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: #404bbf;
+}
+
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -40,6 +86,22 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    color: #404bbf;
+    position: relative;
+}
+
+.menu-link::after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+    transition: color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
 }
 
 .menu-link:hover,
@@ -124,72 +186,6 @@ ul {
     text-align: center;
 }
 
-
-
-
-.footer {
-    background-color: #2e2f42;
-    padding: 100px 0;
-}
-
-.footer-logo {
-    display: inline-block;
-    margin-bottom: 16px;
-}
-
-.footer-logo-span {
-    color: #f4f4fd;
-}
-
-.footer-description {
-    line-height: 1.5;
-    color: #F4F4FD;
-    letter-spacing: 0.02em;
-    max-width: 264px;
-}
-
-.header {
-    border-bottom: 1px solid #e7e9fc;
-}
-
-.top-menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-between
-}
-
-.container {
-    width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
-}
-
-.nav-menu {
-    display: flex;
-    align-items: center;
-}
-
-
-.right-navigation {
-    display: flex;
-    gap: 40px;
-}
-
-.address {
-    font-style: normal;
-}
-
-.address-link {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455
-}
-
-.address-link:hover,
-.address-link:focus {
-    color: #404bbf;
-}
 
 
 .section-hero {
@@ -306,4 +302,27 @@ ul {
 .portofolio-service-description {
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+
+
+.footer {
+    background-color: #2e2f42;
+    padding: 100px 0;
+}
+
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.footer-logo-span {
+    color: #f4f4fd;
+}
+
+.footer-description {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+    max-width: 264px;
 }
