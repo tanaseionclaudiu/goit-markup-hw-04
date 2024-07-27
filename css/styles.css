@@ -119,14 +119,12 @@ ul {
     padding: 188px 0;
     border-bottom: 1px solid currentColor;
     background-color: #2e2f42;
-}
-
-.section-hero .container {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
+
 
 .button-order-service {
     color: #ffffff;
