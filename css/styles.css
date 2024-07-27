@@ -126,6 +126,15 @@ ul {
     max-width: 1440px;
 }
 
+.section-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    max-width: 496px;
+    margin: 0 auto;
+}
 
 .button-order-service {
     color: #ffffff;
@@ -205,14 +214,12 @@ ul {
     letter-spacing: 0.02em;
 }
 
+
+/* third section */
 .section-team {
     background-color: #F4F4FD;
     padding: 120px 0;
-}
-
-.team-members {
-    display: flex;
-    gap: 24px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team {
@@ -223,6 +230,11 @@ ul {
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
+}
+
+.team-members {
+    display: flex;
+    gap: 24px;
 }
 
 .team-member {
@@ -252,18 +264,17 @@ ul {
     text-align: center;
 }
 
+.social-media-links {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
 
-.section-title {
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #ffffff;
-    max-width: 496px;
-    margin: 0 auto;
 }
 
-
+.social-media-icon {
+    width: 40px;
+    height: 40px;
+}
 
 
 
