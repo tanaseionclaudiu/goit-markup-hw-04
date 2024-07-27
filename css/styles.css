@@ -187,8 +187,6 @@ ul {
     flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
-
-
 .service-container svg {
     height: 112px;
     display: flex;
