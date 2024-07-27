@@ -196,8 +196,15 @@ ul {
     padding: 188px 0;
     border-bottom: 1px solid currentColor;
     background-color: #2e2f42;
-    ;
 }
+
+.section-hero .copntainer {
+    background-image: url(../images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 
 .section-title {
     font-size: 56px;
