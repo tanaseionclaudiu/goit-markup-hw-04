@@ -381,16 +381,17 @@ ul {
 .footer {
     background-color: #2e2f42;
     padding: 100px 0;
+}
+
+.footer-container {
     display: flex;
     align-items: baseline;
 }
 
-.footer-container {
-    /*width: 1158px;*/
-    /*padding: 0 15px; */
-    /*margin: 0 auto;*/
+.footer-logo-and-text {
     margin-right: 120px;
 }
+
 
 .footer-logo {
     display: inline-block;
