@@ -187,7 +187,10 @@ ul {
     flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
-.service-container {
+
+
+.service-container svg {
+    height: 112px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -196,9 +199,8 @@ ul {
     border: 1px solid #8e8f99;
     border-radius: 4px;
     margin-bottom: 8px;
-    height: 112px;
+    width: 100%;
 }
-
 
 .service-title {
     font-weight: 500;
