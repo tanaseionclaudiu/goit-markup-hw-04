@@ -321,7 +321,7 @@ ul {
     row-gap: 48px;
 }
 
-.portofolio {
+.portofolio-list .portofolio {
     width: calc((100% - 48px) / 3);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
