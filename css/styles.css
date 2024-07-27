@@ -99,17 +99,13 @@ ul {
 
 .menu-link::after {
     content: "";
-    width: 0%;
+    width: 100%;
     position: absolute;
     left: 0;
     bottom: -1px;
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
-}
-
-.menu-link:hover::after {
-    width: 100%;
 }
 
 .menu {
